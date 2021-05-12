@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+.parallax {
+    /* The image used */
+    background-image: url("./images/tower.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.headerClass {
+    display: flex;
+    justify-content: space-around;
+}
